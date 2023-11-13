@@ -1,0 +1,98 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300; 
+    font-size: 20px; 
+}
+
+  h4, h5{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    font-size: 16px; 
+  }
+  
+  h1, h2, h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    font-size: 21px; 
+  }
+  
+
+  p {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300; 
+    font-size: 20px; 
+  }
+
+header {
+    background-color: #28A745;
+    color: #fff;
+
+}
+
+.headermenu {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-img-top {
+    width: 100%; 
+    height: 500px; 
+    object-fit: cover; 
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+  }
+
+
+  .card-with-margin {
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    margin: 5%;
+   
+    
+}
+
+.cupponcard{
+    background-color: #28A745;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items:normal ;
+}
+
+.custom-button {
+    border: none; 
+}
+
+
+footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 2%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

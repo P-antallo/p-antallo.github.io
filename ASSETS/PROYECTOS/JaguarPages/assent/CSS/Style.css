@@ -1,0 +1,170 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #D8BA9C;
+    color: #124928;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #124928;
+    text-align: center;
+    color: #D8BA9C;
+    margin: 0;
+    padding: 0;
+}
+
+.navMenu {
+    padding: 20px;
+}
+
+.navMenulist li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navMenu .white-link {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #D8BA9C;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.image-container img {
+    display: flex;
+    justify-content: center;
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    transform: scaleY(1.05);
+}
+
+.soloimagen {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 0%;
+    margin-top: 3%;
+}
+
+.soloimagen img {
+    max-width: 50%;
+    max-height: 70%;
+    object-fit: cover;
+    padding: 15px;
+    overflow: hidden;
+    border: 2px solid #124928;
+    margin-top: 3%;
+}
+
+.soloimagen .solotext {
+    max-width: 60%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #124928;
+    color:  #D8BA9C;
+    padding: 5%;
+    border-radius: 0px;
+    margin-top: 10%;
+}
+
+.features-section .feature {
+    text-align: center;
+    flex: 1;
+}
+
+.features-section i {
+    font-size: 60px;
+    color: #D8BA9C;
+}
+
+.features-section p {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.text-gallery h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.gal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    border: 2px solid #124928;
+}
+
+.gal img {
+    max-width: 330px;
+    max-height: 200px;
+    object-fit: cover;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #124928;
+    color: #D8BA9C;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer i.fab.fa-instagram {
+    font-size: 70px;
+    color: #FEF7ED;
+    margin-bottom: 5px;
+}
